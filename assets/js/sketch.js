@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
 	const ctx = canvas.getContext('2d');
 
 	const img = new Image();
-	img.src = "assets/images/IMG_1427.jpg";
+	img.src = "assets/images/IMG_1427.JPG";
 
 	img.onload = () => {
 		const [img_scaled_width, img_scaled_height] = drawImageToScale(img, ctx);
